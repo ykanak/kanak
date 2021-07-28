@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '@x#adk&1acai_8t(tfa79d$qmgh19my*7)dgdtzgs&$!^2_fda'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['todo-227.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','todo-227.herokuapp.com']
 
 
 # Application definition
